@@ -4,6 +4,10 @@ team leave @s[team=mpp_afk]
 #
 #Example:
 #team join Staff @s[team=afk_Staff]
+team join Staff @s[team=afk_Staff]
+team join StaffPatron @s[team=afk_StaffPatron]
+team join Patron @s[team=afk_Patron]
+team join Trusted @s[team=afk_Trusted]
 
 tag @s remove mpp_afk
 

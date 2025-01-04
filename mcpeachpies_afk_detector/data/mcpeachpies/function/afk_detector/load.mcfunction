@@ -3,6 +3,6 @@ execute if score mpp_afk_setup mpp_datapacks matches 1.. run tellraw @a[gamemode
 
 #Setup Check
 scoreboard objectives add mpp_datapacks dummy {"text":"mcpeachpies Datapacks","color":"blue"}
-execute unless score mpp_afk_setup mpp_datapacks matches 1.. run function mcpeachpies_afk_detector:setup
+execute unless score mpp_afk_setup mpp_datapacks matches 1.. run function mcpeachpies:afk_detector/setup
 
-schedule function mcpeachpies_afk_detector:clock 20t
+schedule function mcpeachpies:afk_detector/clock 20t

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "oak_sapling"
+      "id": "oak_sapling"
     },
     "title": "Is anyone there?",
     "description": "Spend 100 hours away from your keyboard",

@@ -1,16 +1,16 @@
 {
     "display": {
       "icon": {
-        "item": "fern"
+        "id": "skeleton_skull"
       },
-      "title": "How long have you been there?",
-      "description": "Stand so incredibly still, that you think you're invisible",
+      "title": "Oh No Dude!",
+      "description": "Die while away from your keyboard",
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "mcpeachpies:afk_detector/are_you_still_there",
+    "parent": "mcpeachpies:afk_detector/welcome_back",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

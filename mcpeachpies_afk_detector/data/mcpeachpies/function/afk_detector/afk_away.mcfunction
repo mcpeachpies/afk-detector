@@ -1,5 +1,5 @@
-execute as @s[tag=!mpp_afk_mig] run function mcpeachpies_afk_detector:scoreboard_migration
-execute as @s[tag=!mpp_afk_advu] run function mcpeachpies_afk_detector:advancement_update
+execute as @s[tag=!mpp_afk_mig] run function mcpeachpies:afk_detector/scoreboard_migration
+execute as @s[tag=!mpp_afk_advu] run function mcpeachpies:afk_detector/advancement_update
 scoreboard players set @s mpp_afk_death 0
 
 tellraw @a ["",{"selector":"@s"},{"text":" is now away from their keyboard","color":"gray"}]

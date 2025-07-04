@@ -9,6 +9,8 @@ team join StaffPatron @s[team=afk_StaffPatron]
 team join Patron @s[team=afk_Patron]
 team join Trusted @s[team=afk_Trusted]
 
+execute as @a[tag=Patron] run function existence_smp:setup/patron_color_update
+
 tag @s remove mpp_afk
 
 advancement grant @s only mcpeachpies:afk_detector/welcome_back

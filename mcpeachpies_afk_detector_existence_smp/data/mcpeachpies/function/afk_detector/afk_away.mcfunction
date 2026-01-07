@@ -8,10 +8,10 @@ team join mpp_afk @s[team=]
 #team join afk_TEAM @s[team=TEAM]
 #
 #Example:
-#team join afk_Staff @s[team=Staff]
-team join afk_Staff @s[tag=Staff]
-team join afk_StaffPatron @s[tag=Patron,tag=Staff]
-team join afk_Patron @s[tag=Patron,tag=!Staff]
+#team join afk_Support @s[team=Support]
+team join afk_Support @s[tag=Support]
+team join afk_SupportPatron @s[tag=Patron,tag=Support]
+team join afk_Patron @s[tag=Patron,tag=!Support]
 team join afk_Trusted @s[team=Trusted]
 
 tag @s add mpp_afk
